@@ -1,0 +1,25 @@
+Exercises
+The solution files for these exercises are in the AD141-apps repository, within the regular_expressions/solutions directory.
+
+Exercise 1
+Write a program that reads a line at a time and determines whether the input consists solely of an integer number that is positive or negative.
+
+Specify whether it is positive or negative.
+
+Exercise 2
+Repeat the previous exercise, but this time use a floating point number.
+
+A floating point number should have at least one digit to the left and to the right of the decimal point.
+
+Specify whether the number is positive or negative.
+
+Exercise 3
+Write a program that reads lines from the user one at a time to see if they are formatted according to the following criteria.
+
+Correctly formatted lines should consist of a four character identifier, any number of spaces or tabs, and a description.
+
+The four character identifier should consist of two digits followed by two uppercase characters.
+
+For each correctly formatted line, print the two digits, the two characters, and the descriptions.
+
+Print all of these pieces of information on separate lines.

@@ -1,0 +1,58 @@
+Exercises
+The solution files for these exercises are in the AD141-apps repository, within the json/solutions directory.
+
+Exercise 1
+Create a program that reads books.json.
+
+Prompt the user to enter a book title until they decide to quit.
+
+If the title is in the JSON data, print the data for that book.
+
+If the book is not in the JSON data, the program must indicate it.
+
+Sample output:
+
+Enter the title of a book (q to quit): Odyssey
+Odyssey Info:
+  year: 800
+  pages: 374
+  language: Greek
+  author: Homer
+  country: Greece
+Exercise 2
+Write a program that saves a dictionary as a JSON file.
+
+The dictionary should contain the word frequency (words as keys, frequency as values) read from the cyclone file.
+
+When saving the JSON file, the indentation level should be tab characters.
+
+The program should display the word that appeared most often in the file.
+
+Sample output:
+
+'the' occurred 93 times
+Exercise 3
+Retrieve and operate on tasks from https://jsonplaceholder.typicode.com/todos.
+
+Get the task list as JSON from the preceding API URL.
+
+Save the data to two local files, one that contains completed tasks and another one that contains incomplete tasks.
+
+The JSON data written to the files should be formatted as minimally as possible (no spaces, newlines, etc).
+
+The program should display the number of tasks we have completed. Sample output:
+
+90 of 200 tasks are done
+Exercise 4
+The following API endpoint returns JSON data that contains a random trivia fact about a number sent to it: http://numbersapi.com/a_number/?json&notfound=floor.
+
+Write a program that makes an HTTP request to the API.
+
+The program should display the fact that was returned in the JSON data.
+
+Another endpoint will return mathematical data about a number:
+
+http://numbersapi.com/a_number/math/?json&notfound=floor
+
+sending request http://numbersapi.com/42/?json&notfound=floor...
+42 is the result given by the web search engines Google, Wolfram Alpha and Bing when the query \"the answer to life the universe and everything\" is entered as a search.

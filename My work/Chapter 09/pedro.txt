@@ -1,0 +1,45 @@
+Exercise 1
+Write list comprehensions to produce the following lists:
+
+A list of elements 0,1,2,3,4,…,99
+
+A list from the preceding comprehension of those values that are evenly divisible by 5.
+
+Exercise 2
+Write a list comprehension to create a list of tuples, of x and the factorial of x, for the numbers from 5 to 10 inclusive.
+
+The math module has a factorial() function that can be used.
+
+Exercise 3
+Write a dictionary comprehension that generates a dictionary of numbers and their factorials in the range (1,10).
+
+Using that dictionary, multiply 6 factorial times 5 factorial.
+
+Exercise 4
+Suppose there is a file with three values per line.
+
+The values are white space separated as follows.
+
+OwnerName ComputerType ComputerValue
+
+Read the lines and make a dictionary of dictionaries so the keys are the owner and the values are a dictionary consisting of the computer type as the key and the computer value as the value.
+
+Finally, print the dictionary.
+
+The dataset might look as follows:
+
+Joe Desktop 500
+Joe Laptop 200
+Joe Desktop 400
+Mary Desktop 200
+Mary Laptop 800
+Beth Laptop 500
+Beth Tablet 250
+Joe Tablet 250
+The output might look as follows:
+
+{
+'Mary': {'Desktop': 200, 'Laptop': 800},
+'Beth': {'Tablet': 250, 'Laptop': 500},
+'Joe': {'Desktop': 900, 'Tablet': 250, 'Laptop': 200}
+}

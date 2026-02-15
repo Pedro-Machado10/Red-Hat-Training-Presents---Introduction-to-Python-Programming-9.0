@@ -1,0 +1,71 @@
+Exercises
+The solution files for these exercises are in the AD141-apps repository, within the io/solutions directory.
+
+Exercise 1
+Write a program that counts the number of lines, words, and characters in each file named on the command line.
+
+Exercise 2
+Revise Exercise 1 so that it accepts as an optional first command line argument a -t option.
+
+The program must then only print the total number of lines, words, and characters in all the files combined.
+
+Exercise 3
+Write a program that asks the user for the names of an input and an output file.
+
+Open both of these files and then have the program read from the input file (by using readline()) and write to the output file (by using write()).
+
+In effect, this is a copy program, whose interface to the program might look like:
+
+Enter the name of the input file: myinput
+Enter the name of the output file: myoutput
+Exercise 4
+Rewrite Exercise 3 such that the file names are obtained from the command line if two arguments are supplied.
+
+If the number of arguments is not two, then it should fall back on prompting the user for the filenames.
+
+The interface might look like:
+
+python3 your_program_name.py inputfile outputfile
+Exercise 5
+Add exception handling to the previous exercise so that if a file open fails, an OSError exception is handled, and the program is halted.
+
+Exercise 6
+Write a program that displays the file name, size, and modification date for all those files in a directory that are greater than a given size.
+
+The directory name and the size criteria are given as command line arguments.
+
+Exercise 7
+Create two data files, each with a set of names, one per line.
+
+Now, write a program that reads both files and lists only those names that are in both files.
+
+The two file names should be supplied on the command line.
+
+Exercise 8
+Now, create a few more files with one name per line.
+
+The program in this exercise should read all these files and print the number of times each line occurs over all the files.
+
+The file names should be supplied on the command line.
+
+The following files are available in the AD141-apps repository, within the io/starter directory, and you can use them in the exercise:
+
+names_a.txt
+names_b.txt
+names_c.txt
+names_d.txt
+The output from the program might be as follows:
+
+Alice       4
+Bart        2
+Beverly     1
+Bill        4
+Chris       2
+Dave        1
+Frank       3
+Jane        3
+John        2
+Mary        1
+Mike        4
+Peter       3
+Susan       2
