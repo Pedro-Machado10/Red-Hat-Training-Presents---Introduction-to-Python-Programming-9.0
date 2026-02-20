@@ -1,0 +1,4 @@
+Exercise 1
+Define a few functions and place them in a module.
+
+Now, write a Python program in a separate file that imports the module and calls the functions.

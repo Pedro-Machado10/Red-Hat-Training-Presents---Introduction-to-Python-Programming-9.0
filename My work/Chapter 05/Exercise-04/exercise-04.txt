@@ -1,0 +1,6 @@
+"""
+Exercise 4
+Write a program that sums the command line arguments.
+
+The program should print both the sum of the arguments and the average value.
+"""

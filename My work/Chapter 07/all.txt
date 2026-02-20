@@ -1,30 +1,8 @@
 Exercises
 The solution files for these exercises are in the AD141-apps repository, within the exceptions/solutions directory.
 
-Exercise 1
-Create a list in your program that has 10 numbers.
 
-Then, in a loop, ask the user for a number.
 
-Use this number as an index into your list and print the value located at that index.
 
-End the program when the user enters end.
 
-Handle the case of an illegal number.
-
-Handle the case of an illegal subscript.
-
-Exercise 2
-Test Exercise 1 again by using a few negative numbers as the index.
-
-Eliminate negative numbers as legitimate subscripts by raising the IndexError exception when a negative number is given.
-
-Exercise 3
-Write a program that uses a loop to prompt the user and get an integer value.
-
-The program should print the sum of all the integers entered.
-
-If the user enters a blank line or any other line that cannot be converted to an integer, the program should handle this ValueError.
-
-If the user uses Ctrl+C to terminate the program, then it should be trapped with a KeyboardInterrupt, and a suitable message should be printed.
 

@@ -15,3 +15,13 @@ The index method raises a ValueError exception if the value being searched for d
 It is perfectly fine for your function to behave in the same manner.
 
 """
+
+def localizador(lista,valor,num):
+    
+    
+    
+    
+
+
+#PRINCIPAL 
+    lista = ["pedro","pedro","pedro","Hulk","Alan Kardec","Goku"]
