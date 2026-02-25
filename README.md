@@ -1,6 +1,7 @@
 # 🐍 Introdução à Programação em Python - Red Hat
-
-![python-programming-with-red-hat-ad141-rha-ver-9-0.png]()
+<div align="center">
+  <img src="./images/badge-python.png"  alt="Badge Red Hat">
+</div>
 
 Este repositório contém todos os exercícios práticos, projetos e anotações teóricas desenvolvidos durante o curso **Introduction to Python Programming** da Red Hat. O objetivo deste repositório é documentar minha evolução e consolidar os conceitos fundamentais da linguagem.
 
