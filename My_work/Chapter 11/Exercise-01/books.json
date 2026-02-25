@@ -1,0 +1,16 @@
+{
+  "Odyssey": {
+    "year": 1600,
+    "pages": 374,
+    "language": "Greek",
+    "author": "Homer",
+    "country": "Greece"
+  },
+  "1984": {
+    "year": 1949,
+    "pages": 328,
+    "language": "English",
+    "author": "George Orwell",
+    "country": "UK"
+  }
+}

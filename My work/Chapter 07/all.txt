@@ -1,8 +1,0 @@
-Exercises
-The solution files for these exercises are in the AD141-apps repository, within the exceptions/solutions directory.
-
-
-
-
-
-
